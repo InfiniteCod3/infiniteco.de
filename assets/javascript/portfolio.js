@@ -6,7 +6,7 @@ const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=bf8a7a81f97c4fd
 
 const timeouts = [];
 const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
+$(document).ready(() => {
   for (let i in links) {
     let link = links[i];
 
