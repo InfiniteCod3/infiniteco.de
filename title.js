@@ -1,15 +1,13 @@
 var i=0;
 setInterval(function(){
     var titles=[
-"|C|",
-"|Cr|",
-"|Crm|",
-"|Crmn|",
-"|Crmnl|",
-"|Crmn|",
-"|Crm|",
-"|Cr|",
-"|C|",
+"|i|",
+"|in|",
+"|inf|",
+"|infiniteco.de|",
+"|inf|",
+"|in|",
+"|i|",
 "||",
 ]
 
