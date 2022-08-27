@@ -1,6 +1,6 @@
 $(function() {
     var tKillNames = ["InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988"];
-    var ctKillNames = ["Nonames"]; 
+    var ctKillNames = ["NoName"]; 
     var weapons = ["awp"*/];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
