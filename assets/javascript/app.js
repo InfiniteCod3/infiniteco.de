@@ -5,7 +5,7 @@ class _app {
   audioElement = null;
   musicVolume = 0.12;
   musicFadeIn = 4000;
-  skippedIntro = false;
+  skippedIntro = true;
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = [
