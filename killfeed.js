@@ -1,10 +1,10 @@
 $(function() {
     var tKillNames = ["InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988", "InfiniteCode#4988"];
-    var ctKillNames = ["NoName"]; 
-    var weapons = ["awp"];
+    var ctKillNames = ["Nonames"]; 
+    var weapons = ["ssg", "deagle", "awp", "g3sg1" /*,  "m4a4"*/];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
-
+    
     function handleKillFeed() {
         var $newFeedElement = $killFeedElement.clone();
         $newFeedElement.find('.weapons img:first-child').attr('src', './img/' + weapons[Math.floor(Math.random() * weapons.length)] + '.png'); 
